@@ -1,0 +1,16 @@
+{
+    "sqltools.connections": [
+        {
+            "name": "My SQLite Database",
+            "connector": "sqlite",
+            "path": "/path/to/your/practicedb.db"
+        },
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "connect db a toy app",
+            "group": "2",
+            "database": "${workspaceFolder:toy_app}/storage/development.sqlite3"
+        }
+    ]
+}
